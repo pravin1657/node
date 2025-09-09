@@ -1,5 +1,5 @@
 import { chromium } from "playwright";
-
+ 
 async function scrapeGoogleWebsites(query) {
   const browser = await chromium.launch({
     headless: true,
