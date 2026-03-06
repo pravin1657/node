@@ -8,7 +8,7 @@ async function callApi(url) {
     return { error: err.message };
   }
 }
-
+  
 // n8n will pass the URL as an argument
 const url = process.argv[2]; 
 
